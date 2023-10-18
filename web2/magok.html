@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Plants and Seeds</title>
+</head>
+<body>
+    <div class="header">
+        <h2>Magok</h2>
+    </div>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="sidenavzar" onclick="Navzar()">&times;</a>
+        <a href="index.html">Főoldal</a>
+        <a href="#">magok</a>
+        <a href="noveny.html">növények</a>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div id="navgomb">
+                <span style="font-size:30px;cursor:pointer" onclick="Navnyit()">Navigáció</span>
+            </div>
+        </div>
+        <div class="col-md-8">
+            <div class="row row-cols-1 row-cols-md-4 g-5" id="magok">
+            </div>
+        </div>
+    </div>
+    <script src="magok.js"></script>
+    <script src="javascript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+</body>
+</html>
